@@ -1,0 +1,355 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+img{
+	border: none;
+}
+
+body, html{
+	background: #FFF;
+	position: relative;
+	font-family: Helvetica, Arial, "Microsoft JhengHei", sans-serif;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+#wrap{
+	width: 480px;
+	margin: 0 auto;
+}
+
+.mobile{
+	display: block;
+}
+
+.desktop{
+	display: none;
+}
+
+#body-05, #body-09{
+	display: block;
+}
+
+
+.row{
+	width: 100%;
+	float: left;
+}
+.col-m-3{
+	width: 480px;
+}
+#logo{
+	width: 202px;
+	margin: 0 auto;	
+	float: center;
+}
+.section{
+	width: 480px;
+	margin: 0 auto;	
+}
+.logo-space{
+	padding: 8px 15px;
+}
+
+#return{
+	height: 28px;
+	padding: 6px 0px 8px 3px;
+	float: left;
+}
+
+#section-11{
+	height: 30px;
+    color: #777;
+    text-align: center;
+	margin-top: 10px;
+    font-size: 12px;
+}
+
+#title-04{
+	background: url("../img/pro2_song_1212.jpg") no-repeat;
+	width: 480px;
+	height: 83px;
+}
+
+#title-05{
+	background: url("../mobile/img/mobile_06.jpg") no-repeat;
+	width: 480px;
+	height: 306px;
+}
+#title-06{
+	background: url("../mobile/img/mobile_07.jpg") no-repeat;
+	width: 480px;
+	height: 306px;
+}
+.imgBox{
+	float: left;
+}
+
+.imgBox img{
+	width: 232px;  /* 小圖手機尺寸 */
+}
+
+#title-06{
+	background: url("../mobile/img/mobile_07.jpg") no-repeat;
+	width: 480px;
+	height: 417px;
+}
+
+
+
+#footer {
+	height: 136px;
+    color: #333;
+	padding: 15px 0 0px 0;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 12px;
+}
+
+.movieTrailer{
+	position: absolute;
+	left: 50%;
+	top: 1616px;
+	z-index: 10;
+	height: 231px;
+	margin-left:-196px;
+	margin-top:518px;
+}
+
+/* API CSS */
+#BOX{
+	width: 480px;
+	margin: 0 auto;
+}
+
+.box{
+	position: relative;
+	background-color: #fff;
+	width: 225px;
+	height: 246px;
+	text-align: center;
+	float: left;
+	padding: 0px 7px 14px 7px;
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	margin-left: -1px;
+	border-right: none;
+}
+
+.imgs img{
+	width: 213px;
+	height: 213px;
+}
+
+/* BOX CSS */
+.BOXSale{
+	width: 480px;
+	margin:  auto;
+}
+
+.boxSale{
+	position: relative;
+	background-color: #fff;
+	width: 225px;
+	height: 305px;
+	text-align: center;
+	float: left;
+	padding: 12px 7px 0 7px;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	margin-left: -1px;
+	border-right: none;
+}
+
+.boxSale img{
+	width: 225px;
+	height: 225px;
+}
+
+.boxSale .node_title1{
+	width: 225px;
+	height:65px;
+	color: #666;
+	z-index: 999;
+	font-size: 18px;
+	padding: 4px;
+	margin-top: -35px;
+	font-weight: bold;
+}
+
+.boxSale .node_title3{
+	width: 225px;
+	height:20px;
+	color: #FFF;
+	z-index: 999;
+	opacity: 0.85;
+  	filter: alpha(opacity=50);
+	font-size: 15px;
+	padding: 3px;
+	margin-top: -20px;
+	background-color:#F00;
+}
+
+
+.boxSale .node_title2{
+	width: 225px;
+	height: 50px;
+	color: #d00;
+	z-index: 999;
+	font-size: 28px;
+	padding: 0 5px;
+	text-decoration: none;
+	margin-top: 0px;
+}
+
+.boxSale .node_title0{
+	font-size: 16px;
+	font-weight:bold;
+}
+
+.boxSale .button{
+	width: 200px;
+	height:20px;
+	color: #fff;
+	z-index: 999;
+	font-size: 15px;
+	padding: 6px 0;
+	background-color: #fd0002;
+	margin-left: 12px;
+}
+
+.old_price {
+	text-decoration:line-through;
+	color:#666;
+	font-size:16px;
+	font-weight:normal;	
+}
+
+/* close CSS */
+
+#close{
+	position: absolute;
+	top: 455px;
+	left: 150px;
+}
+.font3 {
+	font-family: "微軟正黑體", Arial, Helvetica, sans-serif;
+    font-size: 28px;
+	line-height: 28px;
+    color: yellow;
+	font-weight: bold;
+}
+
+/* Bottom menu CSS */
+
+#menu{
+	width: 480px;
+	height: 60px;
+	position:fixed;
+	background: #000;
+	bottom: 0px;
+	z-index:999;
+	text-align: center;
+	color: #FFF;
+	padding-top: 25px;
+	font-size: 15.5px;
+	font-weight: bold;
+	line-height: 17.5px;
+	opacity: 0.85;
+  	filter: alpha(opacity=85);
+	display: none;
+}
+
+#menu div{
+	float: left;
+	border-left: 1px solid #75f4fe;
+	margin-left: -1px;
+	color: #00ecff;
+}
+
+#menu div:hover{
+	color: #c0b4fa;
+}
+
+#btnAs{
+	width: 7.6%;
+}
+
+#btnBs{
+	width: 7.6%;
+}
+
+#btnCs{
+	width: 7.6%;
+}
+
+#btnDs{
+	width: 7.6%;
+}
+#btnEs{
+	width: 7.6%;
+}
+#btnFs{
+	width: 7.6%;
+}
+#btnGs{
+	width: 7.6%;
+}
+#btnHs{
+	width: 7.6%;
+}
+#btnIs{
+	width: 7.6%;
+}
+#btnJs{
+	width: 7.6%;
+}
+#btnKs{
+	width: 7.6%;
+}
+#btnLs{
+	width: 7.6%;
+}
+#btnMs{
+	width: 7.6%;
+}
+
+
+
+
+#btnAs.active, #btnBs.active, #btnCs.active, #btnDs.active, #btnEs.active{
+	
+}
+
+/* Social Media */
+
+.pointer{
+	background-image:url(../img/pointer.png);
+	width:42px;
+	height:42px;
+	position:fixed;
+	bottom: 96px;
+	right: 16px;
+	z-index:9999;
+	display: none;
+	opacity: 0.8;
+  	filter: alpha(opacity=80);
+}
+
+.facebook{
+	background-image:url(../img/facebook.png);
+	width:42px;
+	height:42px;
+	position:fixed;
+	bottom: 146px;
+	right: 16px;
+	z-index:9999;
+	display: none;
+	opacity: 0.8;
+  	filter: alpha(opacity=80);
+}

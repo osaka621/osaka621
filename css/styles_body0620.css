@@ -1,0 +1,601 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{padding:0; margin:0;}
+
+body{
+	font-family:  Arial, Helvetica, "Microsoft JhengHei", sans-serif;
+	background: #841606 url("../img/bg.jpg") center top no-repeat !important;
+}
+
+img{
+	border: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+.col-m-bg{
+	background: url(../img/main.jpg) center top no-repeat;
+	width: 932px;
+	height: 702px;
+	margin-left: 0px;
+}
+.body-a-m-bg{
+	background: url(../img/body_a_w3.jpg) center top no-repeat;
+	width: 932px;
+	height: 70px;
+}
+.body-b-m-bg{
+	background: url(../img/body_b_w3.jpg) center top no-repeat;
+	width: 932px;
+	height: 70px;
+}
+.body-c-m-bg{
+	background: url(../img/body_c_w3.jpg) center top no-repeat;
+	width: 932px;
+	height: 70px;
+}
+.body-d-m-bg{
+	background: url(../img/body_d_w3.jpg) center top no-repeat;
+	width: 932px;
+	height: 70px;
+}
+.body-e-m-bg{
+	background: url(../img/body_e_w3.jpg) center top no-repeat;
+	width: 932px;
+	height: 70px;
+}
+.body-f-m-bg{
+	background: url(../img/body_f_w3.jpg) center top no-repeat;
+	width: 932px;
+	height: 70px;
+}
+.body-g-m-bg{
+	background: url(../img/body_g_w3.jpg) center top no-repeat;
+	width: 932px;
+	height: 70px;
+}
+.body-h-m-bg{
+	background: url(../img/body_h_w3.jpg) center top no-repeat;
+	width: 932px;
+	height: 70px;
+}
+.body-i-m-bg{
+	background: url(../img/body_i_w3.jpg) center top no-repeat;
+	width: 932px;
+	height: 70px;
+}
+.body-j-m-bg{
+	background: url(../img/body_j_w3.jpg) center top no-repeat;
+	width: 932px;
+	height: 70px;
+}
+.body-k-m-bg{
+	background: url(../img/body_k_w3.jpg) center top no-repeat;
+	width: 932px;
+	height: 70px;
+}
+.body-l-m-bg{
+	background: url(../img/body_l_w3.jpg) center top no-repeat;
+	width: 932px;
+	height: 70px;
+}
+/*  桌機版表格底色請改這裡(一格) S */
+.row-1{
+	width: 932px;
+	height: 1940px;
+	background: #194aec;
+	margin-left: 0px;
+}
+/*  桌機版表格底色請改這裡(一格) E */
+
+/*  桌機版表格底色請改這裡(兩格) S */
+.row-2a{
+	width: 932px;
+	height: 644px;
+	background: #32d3e5;
+	margin-left: 0px;
+}
+/*  桌機版表格底色請改這裡(兩格) E */
+
+/*  桌機版表格底色請改這裡(兩格) S */
+.row-2b{
+	width: 932px;
+	height: 644px;
+	background: #b721cb;
+	margin-left: 0px;
+}
+/*  桌機版表格底色請改這裡(兩格) E */
+
+/*  桌機版表格底色請改這裡(兩格) S */
+.row-2c{
+	width: 932px;
+	height: 644px;
+	background: #4787f5;
+	margin-left: 0px;
+}
+/*  桌機版表格底色請改這裡(兩格) E */
+
+/*  桌機版表格底色請改這裡(兩格) S */
+.row-2g{
+	width: 932px;
+	height: 644px;
+	background: #50bd46;
+	margin-left: 0px;
+}
+/*  桌機版表格底色請改這裡(兩格) E */
+
+/*  桌機版表格底色請改這裡(兩格) S */
+.row-2h{
+	width: 932px;
+	height: 644px;
+	background: #ed5f09;
+	margin-left: 0px;
+}
+/*  桌機版表格底色請改這裡(兩格) E */
+
+/*  桌機版表格底色請改這裡(兩格) S */
+.row-2i{
+	width: 932px;
+	height: 644px;
+	background: #fd2c6d;
+	margin-left: 0px;
+}
+/*  桌機版表格底色請改這裡(兩格) E */
+
+
+/*  桌機版表格底色請改這裡(三格) S */
+.row-3{
+	width: 932px;
+	height: 1900px;
+	background: #ef5a01;
+	margin-left: 0px;
+}
+/*  桌機版表格底色請改這裡(三格) E */
+
+/*  桌機版表格底色請改這裡(四格) S */
+.row-4{
+	width: 932px;
+	height: 1110px;
+	background: #D4ED8E;
+	margin-left: 0px;
+}
+/*  桌機版表格底色請改這裡(四格) E */
+.col-m-12{
+	width: 100%;
+}
+.col-m-3{
+	float: left;
+	margin: 0 0px 0 4px;
+	margin-bottom: 4px;
+}
+
+#footer p{
+	color: #eee;
+	font-size: 9pt;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.5;
+}
+
+#content-s{
+	display: none;
+}
+
+/* 單格商品START */
+
+#main-s{
+	margin-left: -10px;
+}
+
+.box0{
+	margin-left: 0px;
+}
+
+.box{
+	background-color: #FFF;
+}
+.highlight{
+	background-color: #f00;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFF;
+	height: 25px;
+	text-align: center;
+	border-left: 6px solid #FFF;
+	border-right: 6px solid #FFF;
+}
+.highlight01{
+	background-color: #0d7487;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFF;
+	height: 25px;
+	text-align: center;
+	border-left: 6px solid #FFF;
+	border-right: 6px solid #FFF;
+}
+.highlight02{
+	background-color: #4f068e;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFF;
+	height: 25px;
+	text-align: center;
+	border-left: 6px solid #FFF;
+	border-right: 6px solid #FFF;
+}
+.highlight03{
+	background-color: #0c3587;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFF;
+	height: 25px;
+	text-align: center;
+	border-left: 6px solid #FFF;
+	border-right: 6px solid #FFF;
+}
+.highlight04{
+	background-color: #16700c;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFF;
+	height: 25px;
+	text-align: center;
+	border-left: 6px solid #FFF;
+	border-right: 6px solid #FFF;
+}
+.highlight05{
+	background-color: #eb4901;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFF;
+	height: 25px;
+	text-align: center;
+	border-left: 6px solid #FFF;
+	border-right: 6px solid #FFF;
+}
+.highlight06{
+	background-color: #f10045;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFF;
+	height: 25px;
+	text-align: center;
+	border-left: 6px solid #FFF;
+	border-right: 6px solid #FFF;
+}
+.name{
+	color: #000;
+	font-size: 13px;
+	line-height: 30px;
+	text-align: center;
+}
+.price{
+    color: #d00;
+    z-index: 999;
+    font-size: 26px;
+    padding: 0 5px 3px 5px;
+    text-decoration: none;
+	text-align: center;
+}
+.price2{
+    color: #d00;
+    z-index: 999;
+    font-size: 26px;
+    padding: 0 5px 3px 5px;
+    text-decoration: none;
+	text-align: center;
+}
+.price .money{
+	font-size: 16px;
+}
+.price .pcs{
+	font-size: 15px;
+	text-decoration: none;
+	font-weight: normal;
+}
+.price .price-s{
+	text-decoration: line-through;
+    color: #666;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+/* 單格商品END */
+
+.box img:first-child{
+	width: 228px !important;
+	height: 228px !important;
+}
+
+
+#footer p{
+	color: #333333;
+	font-size: 9pt;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.5;
+}
+
+@media screen and (max-width: 768px) {
+
+body{
+	background: #FFF !important;
+	font-family: Arial, Helvetica, "Microsoft JhengHei", sans-serif;
+}
+
+.col-m-bg{
+	background: url(../img/main-C-s.jpg) center top no-repeat;
+	width: 480px;
+	height: 659px;
+}
+
+.body-a-m-bg{
+	background: url(../img/body_a_m_w3.jpg) center top no-repeat;
+	width: 480px;
+	height: 70px;
+	margin-left: 0px;
+}
+.body-b-m-bg{
+	background: url(../img/body_b_m_w3.jpg) center top no-repeat;
+	width: 480px;
+	height: 70px;
+	margin-left: 0px;
+}
+.body-c-m-bg{
+	background: url(../img/body_c_m_w3.jpg) center top no-repeat;
+	width: 480px;
+	height: 70px;
+	margin-left: 0px;
+}
+.body-d-m-bg{
+	background: url(../img/body_d_m_w3.jpg) center top no-repeat;
+	width: 480px;
+	height: 70px;
+	margin-left: 0px;
+}
+.body-e-m-bg{
+	background: url(../img/body_e_m_w3.jpg) center top no-repeat;
+	width: 480px;
+	height: 70px;
+	margin-left: 0px;
+}
+.body-f-m-bg{
+	background: url(../img/body_f_m_w3.jpg) center top no-repeat;
+	width: 480px;
+	height: 70px;
+	margin-left: 0px;
+}
+.body-g-m-bg{
+	background: url(../img/body_g_m_w3.jpg) center top no-repeat;
+	width: 480px;
+	height: 70px;
+	margin-left: 0px;
+}
+.body-h-m-bg{
+	background: url(../img/body_h_m_w3.jpg) center top no-repeat;
+	width: 480px;
+	height: 70px;
+	margin-left: 0px;
+}
+
+.body-i-m-bg{
+	background: url(../img/body_i_m_w3.jpg) center top no-repeat;
+	width: 480px;
+	height: 70px;
+	margin-left: 0px;
+}
+
+.body-j-m-bg{
+	background: url(../img/body_j_m_w3.jpg) center top no-repeat;
+	width: 480px;
+	height: 70px;
+	margin-left: 0px;
+}
+
+.body-k-m-bg{
+	background: url(../img/body_k_m_w3.jpg) center top no-repeat;
+	width: 480px;
+	height: 70px;
+	margin-left: 0px;
+}
+
+.body-l-m-bg{
+	background: url(../img/body_l_m_w3.jpg) center top no-repeat;
+	width: 480px;
+	height: 70px;
+	margin-left: 0px;
+}
+
+/*  手機版表格底色請改這裡(一格) S */
+.row-1{
+	width: 480px;
+	height: 3925px;
+	background: #194aec;
+}
+/*  手機版表格底色請改這裡(一格) E */
+
+/*  手機版表格底色請改這裡(兩格) S */
+.row-2a{
+	width: 480px;
+	height: 1324px;
+	background: #30cfe5;
+}
+/*  手機版表格底色請改這裡(兩格) E */
+
+/*  手機版表格底色請改這裡(兩格) S */
+.row-2b{
+	width: 480px;
+	height: 1324px;
+	background: #b721cb;
+}
+/*  手機版表格底色請改這裡(兩格) E */
+
+/*  手機版表格底色請改這裡(兩格) S */
+.row-2c{
+	width: 480px;
+	height: 1324px;
+	background: #4787f5;
+}
+/*  手機版表格底色請改這裡(兩格) E */
+
+
+/*  手機版表格底色請改這裡(兩格) S */
+.row-2g{
+	width: 480px;
+	height: 1324px;
+	background: #50bd46;
+}
+/*  手機版表格底色請改這裡(兩格) E */
+
+/*  手機版表格底色請改這裡(兩格) S */
+.row-2h{
+	width: 480px;
+	height: 1324px;
+	background: #ed5f09;
+}
+/*  手機版表格底色請改這裡(兩格) E */
+
+/*  手機版表格底色請改這裡(兩格) S */
+.row-2i{
+	width: 480px;
+	height: 1324px;
+	background: #fd2c6d;
+}
+/*  手機版表格底色請改這裡(兩格) E */
+
+
+/*  手機版表格底色請改這裡(三格) S */
+.row-3{
+	width: 480px;
+	height: 3920px;
+	background: #ef5a01;
+}
+/*  手機版表格底色請改這裡(三格) E */
+
+/*  手機版表格底色請改這裡(四格) S */
+.row-4{
+	width: 480px;
+	height: 2240px;
+	background: #ee0084;
+}
+/*  手機版表格底色請改這裡(四格) E */
+
+.col-m-12{
+	width: 100%;
+}
+.col-m-6{
+	float: left;
+	margin: 0 0px 0 4px;
+	margin-bottom: 4px;
+}
+
+
+/* 單格商品START */
+
+.box0{
+	margin-left: -4px;
+}
+
+#box1 img{
+	width: 228px !important;
+}
+	
+#box1{
+	width: 238px !important;
+	margin-left: 6px;
+}
+	
+.box{
+	width: 238px !important;
+	background-color: #FFF;
+}
+.highlight{
+	background-color: #f00;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFF;
+	height: 25px;
+	text-align: center;
+	border-left: 6px solid #FFF;
+	border-right: 6px solid #FFF;
+}
+.highlight{
+	background-color: #d7487;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFF;
+	height: 25px;
+	text-align: center;
+	border-left: 6px solid #FFF;
+	border-right: 6px solid #FFF;
+}
+.name{
+	color: #000;
+	font-size: 13px;
+	line-height: 30px;
+	text-align: center;
+}
+.price{
+    color: #d00;
+    z-index: 999;
+    font-size: 26px;
+    padding: 0 5px 3px 5px;
+    text-decoration: none;
+	text-align: center;
+}
+.price .money{
+	font-size: 16px;
+}
+.price .pcs{
+	font-size: 15px;
+	text-decoration: none;
+	font-weight: normal;
+}
+.price .price-s{
+	text-decoration: line-through;
+    color: #666;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+/* 單格商品END */
+
+#footer p{
+	color: #eee;
+	font-size: 9pt;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 5pt;
+}
+
+.pointer{
+	background-image:url(../img/pointer.png);
+	width:69px;
+	height:69px;
+	position:fixed;
+	bottom: 50px;
+	left: 50%;
+	margin-left: 200px;
+	z-index:999;
+	display: none;
+}
+
+#content-s{
+	display: block;
+}
+
+.box img:first-child{
+	width: 238px !important;
+	height: 238px !important;
+}
+}
+
+span{
+	font-size: 15px;
+	text-decoration: none;
+	font-weight: normal;
+	}
